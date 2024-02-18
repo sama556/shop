@@ -1,5 +1,5 @@
-import React from 'react';
 
+import React, { useState, useEffect } from 'react';
 import Header from './Compontents/Header';
 import Slid from './Compontents/Slid';
 import Footer from './Compontents/Footer';
@@ -9,20 +9,22 @@ import BrandItem from './Compontents/BrandItem';
 import Message from './Compontents/Message';
 import Second from "./Compontents/Second";
 
-
 function App() {
+
+
+
   return (
     <>
-  
       <Header />
-      <Slid/>
-      <First/>
-   <Second></Second>
-      <Banner/>
-      <Message></Message>
-      <BrandItem></BrandItem>
-    <Footer />
-    
+      <Slid />
+      <First />
+      <Second />
+      <Banner />
+      <Message />
+      <BrandItem />
+      <Footer />
+
+     
     </>
   );
 }

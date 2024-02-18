@@ -18,8 +18,8 @@ const ProductCard = ({ product }) => {
 
   return (
     <Box 
-      mr={2} // Add some margin between cards
-      flex="1" // Each card takes equal space
+      mr={2} 
+      flex="1" 
       sx={{
         color: 'black',
         padding: '10px',

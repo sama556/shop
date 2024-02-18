@@ -1,6 +1,12 @@
 import React from 'react';
 import { Grid, Typography, Divider } from '@mui/material';
-import ProductListM from './ProductListM';
+import ProductListM from './ProductListM';import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the CSS file if you're using it
+
+// Initialize AOS
+AOS.init();
+
+
 
 
 function Second(){
@@ -14,7 +20,7 @@ function Second(){
         <Divider sx={{ backgroundColor: 'gray', marginBottom: 5 }} />
         <ProductListM />
       </Grid> 
-      <Grid item lg={5} xl={5}>
+      <Grid item lg={5} xl={5}data-aos="fade-right" >
         <img src='https://elessi2.myshopify.com/cdn/shop/files/h2-banner41_900x.jpg?v=1614392006' alt="Banner Image" style={{ width: '100%', height: '100%' }} />
       </Grid>
 

@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   Box,
@@ -18,19 +19,19 @@ const Footer = () => {
           <Grid item lg={3} md={6} xs={12}>
             <Box>
               <div>
-                <Typography variant="h6" gutterBottom sx={{ color: "black" }}>
+                <Typography variant="h6" gutterBottom sx={{ color: "#333" }}>
                   Elessi
                 </Typography>
-                <Typography paragraph sx={{ color: "black" }}>
+                <Typography paragraph sx={{ color: "#333" }}>
                   Calista Wise 7292 Dictum Av. Antonio, Italy.
                 </Typography>
-                <Typography paragraph sx={{ color: "black" }}>
+                <Typography paragraph sx={{ color: "#333" }}>
                   (+01)-800-3456-88
                 </Typography>
-                <Typography paragraph sx={{ color: "black" }}>
+                <Typography paragraph sx={{ color: "#333" }}>
                   <a
                     href="mailto:contact@company.com"
-                    style={{ color: "black" }}
+                    style={{ color: "#333" }}
                   >
                     contact@company.com
                   </a>
@@ -40,14 +41,14 @@ const Footer = () => {
           </Grid>
           <Grid item lg={2} md={6} xs={12}>
             <Box>
-              <Typography variant="h6" gutterBottom sx={{ color: "black" }}>
+              <Typography variant="h6" gutterBottom sx={{ color: "#333" }}>
                 Useful Links
               </Typography>
               <List>
                 <ListItem>
                   <a
                     href="https://elessi2.myshopify.com/pages/shipping-delivery/?preview_theme_id="
-                    style={{ color: "black" }}
+                    style={{ color: "#333" }}
                   >
                     Delivery Information
                   </a>
@@ -55,7 +56,7 @@ const Footer = () => {
                 <ListItem>
                   <a
                     href="https://elessi2.myshopify.com/pages/terms-conditions/?preview_theme_id="
-                    style={{ color: "black" }}
+                    style={{ color: "#333" }}
                   >
                     Terms &amp; Condition
                   </a>
@@ -63,7 +64,7 @@ const Footer = () => {
                 <ListItem>
                   <a
                     href="https://elessi2.myshopify.com/pages/about-us/?preview_theme_id="
-                    style={{ color: "black" }}
+                    style={{ color: "#333" }}
                   >
                     Customer Service
                   </a>
@@ -71,7 +72,7 @@ const Footer = () => {
                 <ListItem>
                   <a
                     href="https://elessi2.myshopify.com/pages/privacy-policy/?preview_theme_id="
-                    style={{ color: "black" }}
+                    style={{ color: "#333" }}
                   >
                     Privacy Policy
                   </a>
@@ -79,7 +80,7 @@ const Footer = () => {
                 <ListItem>
                   <a
                     href="https://elessi2.myshopify.com/search/?preview_theme_id="
-                    style={{ color: "black" }}
+                    style={{ color: "#333" }}
                   >
                     Search Terms
                   </a>
@@ -89,40 +90,40 @@ const Footer = () => {
           </Grid>
           <Grid item lg={4} md={6} xs={12}>
             <Box>
-              <Typography variant="h6" gutterBottom sx={{ color: "black" }}>
+              <Typography variant="h6" gutterBottom sx={{ color: "#333" }}>
                 Get in Touch
               </Typography>
               <List>
                 <ListItem>
-                  <span style={{ color: "black" }}>Whatsapp</span>
-                  <span style={{ color: "black" }}>+001 2233 456 291</span>
+                  <span style={{ color: "#333" }}>Whatsapp</span>
+                  <span style={{ color: "#333" }}>+001 2233 456 291</span>
                 </ListItem>
                 <ListItem>
-                  <span style={{ color: "black" }}>Real Live Support</span>
-                  <span style={{ color: "black" }}>Calista Antonio, Italy</span>
+                  <span style={{ color: "#333" }}>Real Live Support</span>
+                  <span style={{ color: "#333" }}>Calista Antonio, Italy</span>
                 </ListItem>
                 <ListItem>
-                  <span style={{ color: "black" }}>Monday - Friday</span>
-                  <span style={{ color: "black" }}>08:00 - 20:00</span>
+                  <span style={{ color: "#333" }}>Monday - Friday</span>
+                  <span style={{ color: "#333" }}>08:00 - 20:00</span>
                 </ListItem>
                 <ListItem>
-                  <span style={{ color: "black" }}>Saturday</span>
-                  <span style={{ color: "black" }}>09:00 - 21:00</span>
+                  <span style={{ color: "#333" }}>Saturday</span>
+                  <span style={{ color: "#333" }}>09:00 - 21:00</span>
                 </ListItem>
                 <ListItem>
-                  <span style={{ color: "black" }}>Sunday</span>
-                  <span style={{ color: "black" }}>13:00 - 22:00</span>
+                  <span style={{ color: "#333" }}>Sunday</span>
+                  <span style={{ color: "#333" }}>13:00 - 22:00</span>
                 </ListItem>
               </List>
             </Box>
           </Grid>
           <Grid item lg={3} md={6} xs={12}>
             <Box>
-              <Typography variant="h6" gutterBottom sx={{ color: "black" }}>
+              <Typography variant="h6" gutterBottom sx={{ color: "#333" }}>
                 Newsletter Signup
               </Typography>
               <div>
-                <Typography paragraph sx={{ color: "black" }}>
+                <Typography paragraph sx={{ color: "#333" }}>
                   Subscribe to our newsletters now and stay up-to-date with new
                   collections.
                 </Typography>

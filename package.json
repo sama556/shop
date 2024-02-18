@@ -14,12 +14,14 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.9",
     "@mui/material": "^5.15.10",
+    "aos": "^2.3.4",
     "aso": "^1.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
     "react-swipeable-views": "^0.14.0",
-    "swiper": "^11.0.6"
+    "swiper": "^11.0.6",
+    "vanilla-back-to-top": "^7.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

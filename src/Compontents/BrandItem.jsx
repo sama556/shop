@@ -4,6 +4,12 @@ import Swiper from "swiper";
 import "swiper/swiper-bundle.css";
 import "./BrandItem.css";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the CSS file if you're using it
+
+// Initialize AOS
+AOS.init();
+
 const BrandItem = () => {
   const swiperRef = useRef(null);
 
@@ -18,7 +24,7 @@ const BrandItem = () => {
   }, []);
 
   return (
-    <Grid container spacing={2} className="brand-container">
+    <Grid container spacing={2} className="brand-container"data-aos="flip-up"  >
       <Grid item xs={12}>
         <div ref={swiperRef} className="swiper-container">
           <div className="swiper-wrapper">
